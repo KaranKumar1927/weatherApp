@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+  <title> Weather</title>
+  <link href='styles.css' type='text/css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <p id='h'><strong> Check Your City WEATHER</strong></p>
+  </header>
+  <div id="weather-block">
+    <button id='BackButton' style="display: none" >Back</button><br>
+    <div class='input-container'>
+     
+      
+      <div class='block'>
+        
+        <input id='search-city' type='text'  placeholder='Enter the City Name to search' style="color: black;">
+      </div >
+      
+      <button id='search-submit'>Show My Weather</button>
+     
+    </div>
+    
+   <table id = "p" style="display: none">
+      <thead>
+        <tr>
+        <th id="location">Location</th>
+        <th id="tempCelcius">Temperature(C)</th>
+        <th id="tempFarhen">Temperature(F)</th>
+        <th id="humidity">Humidity</th>
+        <th id="windSpeed">Wind Speed</th>
+        <th id="country">Country</th>
+        <th id="sky-status">Sky Status</th>
+       </tr>
+      </thead>
+      <tbody id="p" >
+  
+      </tbody>
+  
+    </table>
+    
+   
+  </div>
+</body>
+
+<script src='script.js'></script>
+
+</html>
